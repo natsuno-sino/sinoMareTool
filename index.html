@@ -1,0 +1,54 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/nm.css">
+	<script src="https://code.angularjs.org/1.5.0/angular.js"></script>
+	<script>
+		(function () {
+			angular.module('app',[]);
+	        })();
+	</script>
+	<script type="text/javascript" src="js/topController.js"></script>
+</head>
+<body ng-app="app">
+<div ng-controller="top">
+<summary>使用ナイトメア</summary> 
+<div class="nm-button" ng-click="addNightmare()">追加</div>
+<div class="nm-button" ng-click="resetNightmare()">クリア</div>
+<div class="sb" ng-repeat="item in selectList">{{$index + 1}}
+	<select ng-model="selectedNightmare[$index]" ng-options="nightmare as nightmare.name for nightmare in nightmares" ng-change="changeNightmare($index)"></select>
+</div>
+
+<div class="boxContainer">
+	<div class="box_nm">
+		<div>ナイトメア</div>
+		<span ng-repeat="item in selectList">
+			<div style="height:{{item.provision}}px;" ng-class="setProvision(item.type)" ng-if="item.provision > 0">{{item.name}} 準備{{item.provision}}秒</div>
+			<div style="height:{{item.effect}}px;" ng-class="setEffect(item.type)" ng-if="item.effect > 0">{{item.name}} 効果{{item.effect}}秒</div>
+		</span>
+	</div>
+	<div class="box_time">
+		<div>残時間</div>
+		<div style="height:60px;" ng-repeat="item in timeList">{{item}}</div>
+	</div>
+	<div class="box_event">
+		<div>
+		神魔
+		</div>
+		<div class="event1">
+		</div>
+		<div class="shinma">
+		神魔1
+		</div>
+		<div class="event2">
+		</div>
+		<div class="shinma">
+		神魔2
+		</div>
+		<div class="event3">
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>

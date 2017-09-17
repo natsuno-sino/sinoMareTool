@@ -1,0 +1,205 @@
+select{
+	height:30px;
+}
+.box1 {
+	float: left;
+}
+.sb {
+	height:40px;
+}
+.box_time {
+	float: left;
+	background-color: #cccccc;
+	width: 20%;
+}
+.box_nm {
+	float: left;
+	background-color: #aabbcc;
+	width: 60%;
+}
+.box_event {
+	float: left;
+	background-color: #222529;
+	color: #fff;
+	width: 20%;
+}
+.time_1m {
+	background-color: #eeeeee;
+	height:60px;
+}
+.time_1m2 {
+	background-color: #dddddd;
+	height:60px;
+}
+.mare1_1 {
+	background-color: #bbccdd;
+}
+.mare1_2 {
+	background-color: #ccddee;
+}
+.mare2_1 {
+	background-color: #bbccff;
+}
+.mare2_2 {
+	background-color: #ccddff;
+}
+.mare3_1 {
+	background-color: #bbccdd;
+}
+.mare3_2 {
+	background-color: #ccddee;
+}
+.mare4_1 {
+	background-color: #bbccff;
+}
+.mare4_2 {
+	background-color: #ccddff;
+}
+.mare5_1 {
+	background-color: #bbccdd;
+}
+.mare5_2 {
+	background-color: #ccddee;
+}
+.mare6_1 {
+	background-color: #bbccff;
+}
+.mare6_2 {
+	background-color: #ccddff;
+}
+.mare7_1 {
+	background-color: #bbccdd;
+}
+.mare7_2 {
+	background-color: #ccddee;
+}
+.mare8_1 {
+	background-color: #bbccff;
+}
+.mare8_2 {
+	background-color: #ccddff;
+}
+.mare9_1 {
+	background-color: #bbccdd;
+}
+.mare9_2 {
+	background-color: #ccddee;
+}
+.mare10_1 {
+	background-color: #bbccff;
+}
+.mare10_2 {
+	background-color: #ccddff;
+}
+.mare11_1 {
+	background-color: #bbccdd;
+}
+.mare11_2 {
+	background-color: #ccddee;
+}
+.mare12_1 {
+	background-color: #bbccff;
+}
+.mare12_2 {
+	background-color: #ccddff;
+}
+.mare13_1 {
+	background-color: #bbccdd;
+}
+.mare13_2 {
+	background-color: #ccddee;
+}
+.mare14_1 {
+	background-color: #bbccff;
+}
+.mare14_2 {
+	background-color: #ccddff;
+}
+.mare15_1 {
+	background-color: #bbccdd;
+}
+.mare15_2 {
+	background-color: #ccddee;
+}
+.event1 {
+	background-color: #555555;
+	color: #fff;
+	height:220px;
+}
+.shinma {
+	background-color: #333333;
+	color: #fff;
+	height:170px;
+}
+.event2 {
+	background-color: #555555;
+	color: #fff;
+	height:270px;
+}
+.event3 {
+	background-color: #555555;
+	color: #fff;
+	height:370px;
+}
+
+.boxContainer {
+	overflow: hidden;
+}
+
+/* clearfix */
+.boxContainer:before,
+.boxContainer:after {
+    content: "";
+    display: table;
+}
+ 
+.boxContainer:after {
+    clear: both;
+}
+
+/* gauge color */
+.gauge-provision-fire{
+	background-color:#F78181;
+	color:#222222;
+}
+.gauge-effect-fire{
+        background-color:#8A0808;
+	color:#ffffff;
+}
+
+.gauge-provision-water{
+        background-color:#8181F7;
+        color:#222222;
+}
+.gauge-effect-water{
+        background-color:#0000FF;
+        color:#ffffff;
+}
+
+.gauge-provision-wind{
+        background-color:#81F781;
+        color:#222222;
+}
+.gauge-effect-wind{
+        background-color:#01DF01;
+        color:#ffffff;
+}
+
+.gauge-provision-else{
+        background-color:#bbbbbb;
+        color:#222222;
+}
+.gauge-effect-else{
+        background-color:#333333;
+        color:#ffffff;
+}
+
+/* button style */
+.nm-button{
+	background-color:#999999;
+	width:100px;
+	border-radius:5px;
+	border:1px solid #000000;
+	display:inline-block;
+	margin:10px;
+}
